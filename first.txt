@@ -1,0 +1,64 @@
+F:\Download\apache-tomcat-8.5.34\bin\catalina.bat run
+[2018-12-17 10:36:40,005] Artifact SpringMVCDemo:war exploded: Waiting for server connection to start artifact deployment...
+Using CATALINA_BASE:   "C:\Users\saket\.IntelliJIdea2018.2\system\tomcat\Unnamed_SpringMVCDemo_2"
+Using CATALINA_HOME:   "F:\Download\apache-tomcat-8.5.34"
+Using CATALINA_TMPDIR: "F:\Download\apache-tomcat-8.5.34\temp"
+Using JRE_HOME:        "C:\Program Files\Java\jdk-10.0.2"
+Using CLASSPATH:       "F:\Download\apache-tomcat-8.5.34\bin\bootstrap.jar;F:\Download\apache-tomcat-8.5.34\bin\tomcat-juli.jar"
+17-Dec-2018 22:36:40.696 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.34
+17-Dec-2018 22:36:40.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 4 2018 22:28:22 UTC
+17-Dec-2018 22:36:40.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.34.0
+17-Dec-2018 22:36:40.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Windows 10
+17-Dec-2018 22:36:40.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            10.0
+17-Dec-2018 22:36:40.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+17-Dec-2018 22:36:40.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             C:\Program Files\Java\jdk-10.0.2
+17-Dec-2018 22:36:40.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           10.0.2+13
+17-Dec-2018 22:36:40.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            "Oracle Corporation"
+17-Dec-2018 22:36:40.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         C:\Users\saket\.IntelliJIdea2018.2\system\tomcat\Unnamed_SpringMVCDemo_2
+17-Dec-2018 22:36:40.698 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         F:\Download\apache-tomcat-8.5.34
+17-Dec-2018 22:36:40.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+17-Dec-2018 22:36:40.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+17-Dec-2018 22:36:40.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+17-Dec-2018 22:36:40.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=C:\Users\saket\.IntelliJIdea2018.2\system\tomcat\Unnamed_SpringMVCDemo_2\conf\logging.properties
+17-Dec-2018 22:36:40.699 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote=
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.port=1099
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.ssl=false
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcom.sun.management.jmxremote.authenticate=false
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.rmi.server.hostname=127.0.0.1
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=C:\Users\saket\.IntelliJIdea2018.2\system\tomcat\Unnamed_SpringMVCDemo_2
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=F:\Download\apache-tomcat-8.5.34
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=F:\Download\apache-tomcat-8.5.34\temp
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent Loaded APR based Apache Tomcat Native library [1.2.17] using APR version [1.6.3].
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+17-Dec-2018 22:36:40.700 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+17-Dec-2018 22:36:41.141 INFO [main] org.apache.catalina.core.AprLifecycleListener.initializeSSL OpenSSL successfully initialized [OpenSSL 1.0.2o  27 Mar 2018]
+17-Dec-2018 22:36:41.167 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+17-Dec-2018 22:36:41.176 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Dec-2018 22:36:41.180 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+17-Dec-2018 22:36:41.181 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+17-Dec-2018 22:36:41.181 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 681 ms
+17-Dec-2018 22:36:41.215 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+17-Dec-2018 22:36:41.215 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.34
+17-Dec-2018 22:36:41.225 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+17-Dec-2018 22:36:41.232 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+17-Dec-2018 22:36:41.234 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 52 ms
+Connected to server
+[2018-12-17 10:36:41,564] Artifact SpringMVCDemo:war exploded: Artifact is being deployed, please wait...
+17-Dec-2018 22:36:41.748 WARNING [RMI TCP Connection(3)-127.0.0.1] org.apache.tomcat.util.descriptor.web.WebXml.setVersion Unknown version string [4.0]. Default version will be used.
+17-Dec-2018 22:36:42.517 INFO [RMI TCP Connection(3)-127.0.0.1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+17-Dec-2018 22:36:42.644 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization started
+17-Dec-2018 22:36:42.702 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.context.support.XmlWebApplicationContext.prepareRefresh Refreshing WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Dec 17 22:36:42 IST 2018]; root of context hierarchy
+17-Dec-2018 22:36:42.746 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions Loading XML bean definitions from ServletContext resource [/WEB-INF/dispatcher-servlet.xml]
+17-Dec-2018 22:36:43.287 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.register Mapped "{[/message],methods=[GET]}" onto public org.springframework.web.portlet.ModelAndView org.kumar.planets.HelloWorldController.welcome()
+17-Dec-2018 22:36:43.343 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Dec 17 22:36:42 IST 2018]; root of context hierarchy
+17-Dec-2018 22:36:43.382 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.initControllerAdviceCache Looking for @ControllerAdvice: WebApplicationContext for namespace 'dispatcher-servlet': startup date [Mon Dec 17 22:36:42 IST 2018]; root of context hierarchy
+17-Dec-2018 22:36:43.467 INFO [RMI TCP Connection(3)-127.0.0.1] org.springframework.web.servlet.DispatcherServlet.initServletBean FrameworkServlet 'dispatcher': initialization completed in 823 ms
+[2018-12-17 10:36:43,480] Artifact SpringMVCDemo:war exploded: Artifact is deployed successfully
+[2018-12-17 10:36:43,480] Artifact SpringMVCDemo:war exploded: Deploy took 1,916 milliseconds
+17-Dec-2018 22:36:51.226 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [F:\Download\apache-tomcat-8.5.34\webapps\manager]
+17-Dec-2018 22:36:51.252 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [F:\Download\apache-tomcat-8.5.34\webapps\manager] has finished in [26] ms
+
